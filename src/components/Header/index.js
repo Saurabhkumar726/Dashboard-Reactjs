@@ -93,6 +93,8 @@ const Header = () => {
 
                                         <Divider className='mb-1'/>
 
+
+                                        <div className='scroll'>
                                         <MenuItem onClick={handleCloseMyAccDrop}>
                                             <div className='d-flex'>
                                                <div>
@@ -218,6 +220,11 @@ const Header = () => {
                                                 
                                             </div>
                                         </MenuItem>
+                                        </div>
+
+                                        <div className='ps-2 pe-2 w-100 pt-2'>
+                                          <Button className='btn-blue w-100'>View all notifications</Button>
+                                        </div>
                               </Menu>
                         </div>
 
